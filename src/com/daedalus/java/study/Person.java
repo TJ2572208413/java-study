@@ -6,12 +6,12 @@ package com.daedalus.java.study;
 
 public class Person {
 
-    public  void hello() {
+    public void hello() {
 
         System.out.println("Hello World");
     }
 
-    public  String buy(int money) {
+    public String buy(int money) {
 
         if (money > 50) {
             return "剁手成功";
