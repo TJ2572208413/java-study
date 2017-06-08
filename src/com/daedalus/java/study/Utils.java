@@ -5,9 +5,8 @@ package com.daedalus.java.study;
  */
 public class Utils {
 
-    public void hello() {
+    public static void hello() {
 
         System.out.println("Hello World");
     }
-
 }

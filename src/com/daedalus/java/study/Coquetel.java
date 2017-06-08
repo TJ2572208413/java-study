@@ -13,8 +13,6 @@ public class Coquetel {
         System.out.println(result2);
 
 
-        Utils myUtils = new Utils();
-        myUtils.hello();
-
+        Utils.hello();
     }
 }
