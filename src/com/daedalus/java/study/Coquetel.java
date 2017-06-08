@@ -11,5 +11,9 @@ public class Coquetel {
 
         String result2 = myPerson.buy(40);
         System.out.println(result2);
+
+
+        Utils myUtils = new Utils();
+        myUtils.hello();
     }
 }
