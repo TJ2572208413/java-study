@@ -8,9 +8,12 @@ public class Person {
 
     private String name;
 
+
+    //类的构造函数，传递一个名字
     public Person(String myName) {
         name = myName;
     }
+
 
     public void hi() {
         System.out.println("我的名字叫：" + name);
