@@ -4,14 +4,14 @@ public class Coquetel {
 
     public static void main(String[] args) {
 
-        Person myPerson = new Person();
+        Person myPerson = new Person("Coquetel");
+        myPerson.hi();
 
         String result1 = myPerson.buy(60);
         System.out.println(result1);
 
         String result2 = myPerson.buy(40);
         System.out.println(result2);
-
 
         Utils.hello();
     }

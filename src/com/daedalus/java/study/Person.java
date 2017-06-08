@@ -6,6 +6,16 @@ package com.daedalus.java.study;
 
 public class Person {
 
+    private String name;
+
+    public Person(String myName) {
+        name = myName;
+    }
+
+    public void hi() {
+        System.out.println("我的名字叫：" + name);
+    }
+
     public String buy(int money) {
 
         if (money > 50) {
