@@ -5,7 +5,6 @@ public class Coquetel {
     public static void main(String[] args) {
 
         Person myPerson = new Person();
-        myPerson.hello();
 
         String result1 = myPerson.buy(60);
         System.out.println(result1);

@@ -6,11 +6,6 @@ package com.daedalus.java.study;
 
 public class Person {
 
-    public void hello() {
-
-        System.out.println("Hello World");
-    }
-
     public String buy(int money) {
 
         if (money > 50) {
