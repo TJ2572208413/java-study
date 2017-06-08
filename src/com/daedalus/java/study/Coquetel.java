@@ -4,13 +4,19 @@ public class Coquetel {
 
     public static void main(String[] args) {
 
-        Person myPerson1 = new Person("Coquetel");
+        String name1="Coquetel";
+
+        Person myPerson1 = new Person(name1);
         myPerson1.hi();
 
-        Person myPerson2 = new Person("Daedalus");
+        String name2="Daedalus";
+
+        Person myPerson2 = new Person(name2);
         myPerson2.hi();
 
-        Person myPerson3 = new Person("");
+        String name3="";
+
+        Person myPerson3 = new Person(name3);
         myPerson3.hi();
 
 //        String result1 = myPerson.buy(60);
