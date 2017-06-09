@@ -8,6 +8,10 @@ public class Person {
 
     private String name;
 
+    //类的另外一个构造函数
+    public Person() {
+        name = "";
+    }
 
     //类的构造函数，传递一个名字
     public Person(String myName) {
