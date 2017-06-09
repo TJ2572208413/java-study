@@ -11,7 +11,7 @@ public class Coquetel {
 
         String name2 = "Daedalus";
         Person myPerson2 = new Person();
-        myPerson2.setName(name2);
+        //myPerson2.setName(name2);
         myPerson2.hi();
 
 

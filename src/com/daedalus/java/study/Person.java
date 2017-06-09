@@ -8,14 +8,12 @@ public class Person {
 
     private String name;
 
-    public void setName(String myName)
-    {
+    public void setName(String myName) {
         name = myName;
     }
 
-    public String getName()
-    {
-       return name;
+    public String getName() {
+        return name;
     }
 
     //类的另外一个构造函数
@@ -30,7 +28,11 @@ public class Person {
 
 
     public void hi() {
-        System.out.println("我的名字叫：" + name);
+        if (name == null || name.equals("")) {
+            System.out.println("name没有赋值");
+        } else {
+            System.out.println("我的名字叫：" + name);
+        }
     }
 
     public String buy(int money) {
