@@ -8,6 +8,16 @@ public class Person {
 
     private String name;
 
+    public void setName(String myName)
+    {
+        name = myName;
+    }
+
+    public String getName()
+    {
+       return name;
+    }
+
     //类的另外一个构造函数
     public Person() {
         name = "";
