@@ -27,6 +27,6 @@ public abstract class Animal {
 
     public void shout()
     {
-        System.out.println("抽象类的shout方法，需要背子类复写");
+        System.out.println("抽象类的shout方法，需要被子类复写");
     }
 }
