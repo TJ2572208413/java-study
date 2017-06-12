@@ -8,6 +8,6 @@ public class Cat extends Animal {
     @Override
     public void shout()
     {
-        System.out.println("喵喵");
+        System.out.println( "我的名字叫:"+name+"，我的颜色是:"+color+"，喵喵喵喵");
     }
 }

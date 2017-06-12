@@ -8,7 +8,7 @@ public class Dog  extends Animal{
     @Override
     public void shout()
     {
-        System.out.println("汪汪");
+        System.out.println( "我的名字叫:"+name+"，我的颜色是:"+color+"，汪汪汪汪");
     }
 
 }
