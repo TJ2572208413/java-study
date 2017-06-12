@@ -1,17 +1,17 @@
 package com.daedalus.java.study;
-import com.daedalus.java.study.exmple1.Cat;
-import com.daedalus.java.study.exmple1.Dog;
+
+import com.daedalus.java.study.exmple1.*;
 
 public class Coquetel {
 
     public static void main(String[] args) {
 
-        Cat cat1=new Cat();
+        Cat cat1 = new Cat();
         cat1.setName("咪咪");
         cat1.setColor("黄色");
         cat1.shout();
 
-        Dog dog1=new Dog();
+        Dog dog1 = new Dog();
         dog1.setName("小白");
         dog1.setColor("白色");
         dog1.shout();
