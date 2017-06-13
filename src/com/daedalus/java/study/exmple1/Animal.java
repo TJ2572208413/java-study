@@ -13,9 +13,9 @@ public abstract class Animal {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+//    public void setColor(String color) {
+//        this.color = color;
+//    }
 
     public String getName() {
         return name;
@@ -25,8 +25,14 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public void shout()
-    {
+    public Animal(String myName, String myColor) {
+
+        name = myName;
+        color = myColor;
+
+    }
+
+    public void shout() {
         System.out.println("抽象类的shout方法，需要被子类复写");
     }
 }

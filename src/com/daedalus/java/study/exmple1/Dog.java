@@ -5,6 +5,10 @@ package com.daedalus.java.study.exmple1;
  */
 public class Dog  extends Animal{
 
+    public Dog(String myName, String myColor) {
+        super(myName, myColor);
+    }
+
     @Override
     public void shout()
     {

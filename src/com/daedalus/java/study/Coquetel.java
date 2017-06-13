@@ -2,18 +2,16 @@ package com.daedalus.java.study;
 
 import com.daedalus.java.study.exmple1.*;
 
+import java.util.Scanner;
+
 public class Coquetel {
 
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat();
-        cat1.setName("咪咪");
-        cat1.setColor("黄色");
+        Cat cat1 = new Cat("咪咪","黄色");
         cat1.shout();
 
-        Dog dog1 = new Dog();
-        dog1.setName("小白");
-        dog1.setColor("白色");
+        Dog dog1 = new Dog("小白","白色");
         dog1.shout();
 
         //String name1 = "Coquetel";
@@ -28,5 +26,20 @@ public class Coquetel {
 
 
         //Utils.hello();
+    }
+
+    public static void add() {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("输入第一个数字：");
+        Integer s1 = reader.nextInt();
+        System.out.println("你输入的是：" + s1);
+
+        System.out.println("输入第二个数字：");
+        Integer s2 = reader.nextInt();
+        System.out.println("你输入的是：" + s2);
+
+        Integer result = s1 + s2;
+
+        System.out.println(s1 + " + " + s2 + " 的结果为：" + result);
     }
 }
