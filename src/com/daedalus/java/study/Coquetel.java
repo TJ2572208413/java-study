@@ -8,11 +8,11 @@ public class Coquetel {
 
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat("咪咪","黄色");
-        cat1.shout();
+        Animal myAnimal = new Cat("咪咪", "黄色");
+        myAnimal.shout();
 
-        Dog dog1 = new Dog("小白","白色");
-        dog1.shout();
+        myAnimal = new Dog("小白", "白色");
+        myAnimal.shout();
 
         //String name1 = "Coquetel";
 
