@@ -21,7 +21,6 @@ public class Coquetel {
     public static void add() {
 
         Scanner reader = new Scanner(System.in);
-
         System.out.println("输入第一个数字：");
 
         Integer s1 = reader.nextInt();
